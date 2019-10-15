@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="ToursBooking(failed)" parallel="tests">
+    <classes>
+      <class name="com.AutDemo.ToursBooking">
+        <methods>
+          <include name="selectFlight"/>
+          <include name="launchApplication"/>
+          <include name="bookflight"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.AutDemo.ToursBooking -->
+    </classes>
+  </test> <!-- ToursBooking(failed) -->
+</suite> <!-- Failed suite [Suite] -->

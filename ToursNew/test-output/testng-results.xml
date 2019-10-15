@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="304844" started-at="2019-10-15T06:06:38Z" finished-at="2019-10-15T06:11:43Z">
+    <groups>
+    </groups>
+    <test name="ToursBooking" duration-ms="174067" started-at="2019-10-15T06:06:38Z" finished-at="2019-10-15T06:09:32Z">
+      <class name="com.AutDemo.ToursBooking">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.AutDemo.ToursBooking@77cd7a0]" name="launchApplication" is-config="true" duration-ms="27641" started-at="2019-10-15T11:36:38Z" finished-at="2019-10-15T11:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="bookflight()[pri:0, instance:com.AutDemo.ToursBooking@77cd7a0]" name="bookflight" duration-ms="88300" started-at="2019-10-15T11:37:06Z" finished-at="2019-10-15T11:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookflight -->
+        <test-method status="PASS" signature="selectFlight()[pri:0, instance:com.AutDemo.ToursBooking@77cd7a0]" name="selectFlight" duration-ms="47426" started-at="2019-10-15T11:38:34Z" finished-at="2019-10-15T11:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.AutDemo.ToursBooking@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="10594" started-at="2019-10-15T11:39:21Z" finished-at="2019-10-15T11:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.AutDemo.ToursBooking -->
+    </test> <!-- ToursBooking -->
+    <test name="CruisesBooking" duration-ms="96659" started-at="2019-10-15T06:09:32Z" finished-at="2019-10-15T06:11:09Z">
+      <class name="com.AutDemo1.CruisesBooking">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.AutDemo1.CruisesBooking@e45f292]" name="openApplication" is-config="true" duration-ms="26657" started-at="2019-10-15T11:39:32Z" finished-at="2019-10-15T11:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="bookCruise()[pri:0, instance:com.AutDemo1.CruisesBooking@e45f292]" name="bookCruise" duration-ms="59888" started-at="2019-10-15T11:39:59Z" finished-at="2019-10-15T11:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookCruise -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.AutDemo1.CruisesBooking@e45f292]" name="browserClose" is-config="true" duration-ms="10110" started-at="2019-10-15T11:40:59Z" finished-at="2019-10-15T11:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.AutDemo1.CruisesBooking -->
+    </test> <!-- CruisesBooking -->
+    <test name="BrokenLinks" duration-ms="33969" started-at="2019-10-15T06:11:09Z" finished-at="2019-10-15T06:11:43Z">
+      <class name="com.AutDemo2.BrokenLinks">
+        <test-method status="PASS" signature="brokenLinktest()[pri:0, instance:com.AutDemo2.BrokenLinks@72d818d1]" name="brokenLinktest" duration-ms="33954" started-at="2019-10-15T11:41:09Z" finished-at="2019-10-15T11:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinktest -->
+      </class> <!-- com.AutDemo2.BrokenLinks -->
+    </test> <!-- BrokenLinks -->
+  </suite> <!-- Suite -->
+</testng-results>
